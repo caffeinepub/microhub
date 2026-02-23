@@ -1,0 +1,289 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-hero-section-with-headline-stop-spending-lakhs-on-ads-work-with-real-creators-subtext-microhub-helps-brands-grow-through-micro-nano-influencer-collaborations-that-actually-convert-two-cta-buttons-labeled-work-with-creators-and-join-as-creator-and-modern-creator-focused-background-visuals",
+      "featureTitle": "Create a hero section with headline 'Stop Spending Lakhs on Ads. Work With Real Creators.', subtext 'Microhub helps brands grow through micro & nano influencer collaborations that actually convert.', two CTA buttons labeled 'Work With Creators' and 'Join As Creator', and modern creator-focused background visuals",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-problem-section-highlighting-expensive-ad-campaigns-low-engagement-fake-influencer-reach-and-poor-roi-followed-by-positioning-microhub-as-the-solution",
+      "featureTitle": "Create a problem section highlighting expensive ad campaigns, low engagement, fake influencer reach, and poor ROI, followed by positioning Microhub as the solution",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ProblemSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-what-we-do-section-explaining-influencer-matchmaking-barter-paid-campaigns-content-driven-brand-exposure-and-campaign-strategy-reporting",
+      "featureTitle": "Create a 'What We Do' section explaining influencer matchmaking, barter & paid campaigns, content-driven brand exposure, and campaign strategy & reporting",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/WhatWeDo.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-why-microhub-section-emphasizing-focus-on-micro-nano-creators-real-engagement-over-fake-followers-mumbai-focused-local-targeting-and-affordability-for-small-mid-brands",
+      "featureTitle": "Create a 'Why Microhub' section emphasizing focus on micro & nano creators, real engagement over fake followers, Mumbai-focused local targeting, and affordability for small & mid brands",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/WhyMicrohub.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-how-it-works-section-with-a-4-step-process-step-1-brand-shares-goals-step-2-we-shortlist-creators-step-3-campaign-execution-step-4-track-performance",
+      "featureTitle": "Create a 'How It Works' section with a 4-step process: Step 1 - Brand shares goals, Step 2 - We shortlist creators, Step 3 - Campaign execution, Step 4 - Track performance",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/HowItWorks.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-creator-recruitment-section-with-the-message-don-t-chase-brands-let-brands-discover-you-and-a-join-microhub-cta-button",
+      "featureTitle": "Create a creator recruitment section with the message 'Don't chase brands. Let brands discover you.' and a 'Join Microhub' CTA button",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/CreatorSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-testimonials-section-with-placeholders-for-brand-and-creator-reviews",
+      "featureTitle": "Create a testimonials section with placeholders for brand and creator reviews",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Testimonials.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-contact-section-with-a-lead-form-including-fields-for-name-brand-name-budget-range-contact-number-and-email",
+      "featureTitle": "Create a contact section with a lead form including fields for Name, Brand Name, Budget Range, Contact Number, and Email",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ContactForm.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-mobile-first-responsive-design-across-all-sections-ensuring-optimal-viewing-and-interaction-on-smartphones-and-tablets",
+      "featureTitle": "Implement mobile-first responsive design across all sections ensuring optimal viewing and interaction on smartphones and tablets",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-instagram-integration-component-and-a-whatsapp-contact-button-that-opens-whatsapp-chat",
+      "featureTitle": "Add Instagram integration component and a WhatsApp contact button that opens WhatsApp chat",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/SocialIntegrations.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-clean-footer-with-mumbai-location-information-and-relevant-links",
+      "featureTitle": "Create a clean footer with Mumbai location information and relevant links",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-modern-scroll-animations-throughout-the-website-for-smooth-section-transitions-and-element-reveals",
+      "featureTitle": "Implement modern scroll animations throughout the website for smooth section transitions and element reveals",
+      "files": [
+        "frontend/src/components/CreatorSection.tsx",
+        "frontend/src/components/Hero.tsx",
+        "frontend/src/components/HowItWorks.tsx",
+        "frontend/src/components/ProblemSection.tsx",
+        "frontend/src/components/Testimonials.tsx",
+        "frontend/src/components/WhatWeDo.tsx",
+        "frontend/src/components/WhyMicrohub.tsx",
+        "frontend/src/hooks/useScrollAnimation.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-seo-optimization-with-appropriate-meta-tags-structured-data-and-content-optimization-targeting-the-keyword-influencer-marketing-agency-in-mumbai",
+      "featureTitle": "Implement SEO optimization with appropriate meta tags, structured data, and content optimization targeting the keyword 'Influencer Marketing Agency in Mumbai'",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/Hero.tsx",
+        "frontend/src/components/ProblemSection.tsx",
+        "frontend/src/components/WhatWeDo.tsx",
+        "frontend/src/components/WhyMicrohub.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-a-premium-minimal-design-aesthetic-with-black-white-and-electric-blue-or-neon-green-accent-colors-featuring-clean-layouts-strong-typography-and-a-style-that-feels-youthful-yet-professional",
+      "featureTitle": "Apply a premium minimal design aesthetic with black, white, and electric blue or neon green accent colors, featuring clean layouts, strong typography, and a style that feels youthful yet professional",
+      "files": [
+        "frontend/src/components/ContactForm.tsx",
+        "frontend/src/components/CreatorSection.tsx",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/Hero.tsx",
+        "frontend/src/components/HowItWorks.tsx",
+        "frontend/src/components/ProblemSection.tsx",
+        "frontend/src/components/Testimonials.tsx",
+        "frontend/src/components/WhatWeDo.tsx",
+        "frontend/src/components/WhyMicrohub.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Modern, high-converting website for Microhub - an influencer marketing agency in Mumbai connecting micro and nano influencers with brands for barter and paid collaborations. Premium minimal design targeting brand owners as primary audience.",
+  "architectural_notes": [
+    "Premium minimal design with black, white, and bold accent color (electric blue or neon green)",
+    "Brand owners as primary target audience - design and messaging prioritize their needs",
+    "Mobile-first responsive approach with modern scroll animations",
+    "Strong typography emphasis for clean professional look"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Modern creator-focused hero background with young diverse creators using smartphones and cameras, premium minimal style (hero-bg.dim_1920x1080.png)\n- Abstract geometric pattern in accent color for section backgrounds, minimal style (pattern-accent.dim_800x800.png)\n- Mumbai cityscape silhouette illustration in minimal line art style (mumbai-skyline.dim_1200x400.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-hero-section-with-headline-stop-spending-lakhs-on-ads-work-with-real-creators-subtext-microhub-helps-brands-grow-through-micro-nano-influencer-collaborations-that-actually-convert-two-cta-buttons-labeled-work-with-creators-and-join-as-creator-and-modern-creator-focused-background-visuals",
+      "title": "Create a hero section with headline 'Stop Spending Lakhs on Ads. Work With Real Creators.', subtext 'Microhub helps brands grow through micro & nano influencer collaborations that actually convert.', two CTA buttons labeled 'Work With Creators' and 'Join As Creator', and modern creator-focused background visuals",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-problem-section-highlighting-expensive-ad-campaigns-low-engagement-fake-influencer-reach-and-poor-roi-followed-by-positioning-microhub-as-the-solution",
+      "title": "Create a problem section highlighting expensive ad campaigns, low engagement, fake influencer reach, and poor ROI, followed by positioning Microhub as the solution",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-what-we-do-section-explaining-influencer-matchmaking-barter-paid-campaigns-content-driven-brand-exposure-and-campaign-strategy-reporting",
+      "title": "Create a 'What We Do' section explaining influencer matchmaking, barter & paid campaigns, content-driven brand exposure, and campaign strategy & reporting",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-why-microhub-section-emphasizing-focus-on-micro-nano-creators-real-engagement-over-fake-followers-mumbai-focused-local-targeting-and-affordability-for-small-mid-brands",
+      "title": "Create a 'Why Microhub' section emphasizing focus on micro & nano creators, real engagement over fake followers, Mumbai-focused local targeting, and affordability for small & mid brands",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-how-it-works-section-with-a-4-step-process-step-1-brand-shares-goals-step-2-we-shortlist-creators-step-3-campaign-execution-step-4-track-performance",
+      "title": "Create a 'How It Works' section with a 4-step process: Step 1 - Brand shares goals, Step 2 - We shortlist creators, Step 3 - Campaign execution, Step 4 - Track performance",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-creator-recruitment-section-with-the-message-don-t-chase-brands-let-brands-discover-you-and-a-join-microhub-cta-button",
+      "title": "Create a creator recruitment section with the message 'Don't chase brands. Let brands discover you.' and a 'Join Microhub' CTA button",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-testimonials-section-with-placeholders-for-brand-and-creator-reviews",
+      "title": "Create a testimonials section with placeholders for brand and creator reviews",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-with-a-lead-form-including-fields-for-name-brand-name-budget-range-contact-number-and-email",
+      "title": "Create a contact section with a lead form including fields for Name, Brand Name, Budget Range, Contact Number, and Email",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-mobile-first-responsive-design-across-all-sections-ensuring-optimal-viewing-and-interaction-on-smartphones-and-tablets",
+      "title": "Implement mobile-first responsive design across all sections ensuring optimal viewing and interaction on smartphones and tablets",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-instagram-integration-component-and-a-whatsapp-contact-button-that-opens-whatsapp-chat",
+      "title": "Add Instagram integration component and a WhatsApp contact button that opens WhatsApp chat",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-clean-footer-with-mumbai-location-information-and-relevant-links",
+      "title": "Create a clean footer with Mumbai location information and relevant links",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-modern-scroll-animations-throughout-the-website-for-smooth-section-transitions-and-element-reveals",
+      "title": "Implement modern scroll animations throughout the website for smooth section transitions and element reveals",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-seo-optimization-with-appropriate-meta-tags-structured-data-and-content-optimization-targeting-the-keyword-influencer-marketing-agency-in-mumbai",
+      "title": "Implement SEO optimization with appropriate meta tags, structured data, and content optimization targeting the keyword 'Influencer Marketing Agency in Mumbai'",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-premium-minimal-design-aesthetic-with-black-white-and-electric-blue-or-neon-green-accent-colors-featuring-clean-layouts-strong-typography-and-a-style-that-feels-youthful-yet-professional",
+      "title": "Apply a premium minimal design aesthetic with black, white, and electric blue or neon green accent colors, featuring clean layouts, strong typography, and a style that feels youthful yet professional",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with headline, subtext, dual CTAs and creator-focused visuals",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Problem section highlighting expensive ads, low engagement, fake reach, poor ROI",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "What We Do section explaining matchmaking, campaigns, exposure, and reporting",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Why Microhub section emphasizing micro/nano focus, real engagement, Mumbai targeting, affordability",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "How It Works section with 4-step process from goals to performance tracking",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Creator recruitment section with Join Microhub CTA",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Testimonials section with placeholder for brand and creator reviews",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Contact section with lead form (name, brand name, budget, contact, email)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Mobile-first responsive design with modern scroll animations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Instagram integration and WhatsApp contact button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Clean footer with Mumbai location",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "SEO optimization for 'Influencer Marketing Agency in Mumbai'",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Microhub",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

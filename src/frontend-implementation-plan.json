@@ -1,0 +1,409 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Microhub Influencer Marketing Agency Website - Frontend Implementation",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Create hero section with headline, subtext, CTA buttons, and generated background visual",
+      "acceptanceCriteria": [
+        "Hero section displays headline and subtext prominently",
+        "Two CTA buttons are visible and styled consistently",
+        "Background visuals are modern and creator-focused",
+        "Section is responsive on mobile devices"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "create",
+          "description": "Create Hero component with headline 'Stop Spending Lakhs on Ads. Work With Real Creators.', subtext 'Microhub helps brands grow through micro & nano influencer collaborations that actually convert.', two CTA buttons labeled 'Work With Creators' and 'Join As Creator', and background image using frontend/public/assets/generated/hero-bg.dim_1920x1080.png"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and add Hero component to the main application layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Create problem section highlighting brand pain points and positioning Microhub as the solution",
+      "acceptanceCriteria": [
+        "Four pain points are clearly displayed",
+        "Transition to Microhub solution is clear and compelling",
+        "Section has strong visual hierarchy"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ProblemSection.tsx",
+          "operation": "create",
+          "description": "Create ProblemSection component displaying four pain points: expensive ad campaigns, low engagement, fake influencer reach, and poor ROI, followed by positioning Microhub as the solution with strong visual hierarchy"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and add ProblemSection component below Hero in the main layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Create What We Do section explaining four core service offerings",
+      "acceptanceCriteria": [
+        "All four service offerings are displayed clearly",
+        "Section uses icons or visual elements to support text",
+        "Content is scannable and easy to understand"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/WhatWeDo.tsx",
+          "operation": "create",
+          "description": "Create WhatWeDo component displaying four services: influencer matchmaking, barter & paid campaigns, content-driven brand exposure, and campaign strategy & reporting, with icons and scannable layout"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and add WhatWeDo component to the main layout after ProblemSection"
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Create Why Microhub section emphasizing unique value propositions and differentiation",
+      "acceptanceCriteria": [
+        "Four unique value propositions are clearly displayed",
+        "Section differentiates Microhub from competitors",
+        "Design emphasizes trust and credibility"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/WhyMicrohub.tsx",
+          "operation": "create",
+          "description": "Create WhyMicrohub component displaying four differentiators: focus on micro & nano creators, real engagement over fake followers, Mumbai-focused local targeting, and affordability for small & mid brands, with trust-building design using frontend/public/assets/generated/pattern-accent.dim_800x800.png as background accent"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and add WhyMicrohub component to the main layout after WhatWeDo"
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Create How It Works section with 4-step process flow",
+      "acceptanceCriteria": [
+        "Four steps are displayed in a clear sequential flow",
+        "Each step has a visual indicator (number or icon)",
+        "Process is easy to follow and understand"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HowItWorks.tsx",
+          "operation": "create",
+          "description": "Create HowItWorks component with 4-step process: Step 1 - Brand shares goals, Step 2 - We shortlist creators, Step 3 - Campaign execution, Step 4 - Track performance, with numbered visual indicators and clear sequential flow"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and add HowItWorks component to the main layout after WhyMicrohub"
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Create creator recruitment section targeting secondary audience",
+      "acceptanceCriteria": [
+        "Section addresses creators as secondary audience",
+        "Message is compelling and action-oriented",
+        "CTA button is prominent and styled consistently"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/CreatorSection.tsx",
+          "operation": "create",
+          "description": "Create CreatorSection component with message 'Don't chase brands. Let brands discover you.' and a prominent 'Join Microhub' CTA button styled consistently with other CTAs"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and add CreatorSection component to the main layout after HowItWorks"
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Create testimonials section with placeholder cards for brand and creator reviews",
+      "acceptanceCriteria": [
+        "Section includes placeholder testimonial cards",
+        "Layout supports multiple testimonials",
+        "Design includes space for reviewer name and company/role"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Testimonials.tsx",
+          "operation": "create",
+          "description": "Create Testimonials component with placeholder cards for brand and creator reviews, including reviewer name, company/role, and testimonial text in a responsive grid layout"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and add Testimonials component to the main layout after CreatorSection"
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Create contact section with lead form storing submissions via backend",
+      "acceptanceCriteria": [
+        "Form includes all five required fields",
+        "Form has clear labels and validation",
+        "Form submission stores lead data",
+        "Success/error messages are displayed appropriately"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactForm.tsx",
+          "operation": "create",
+          "description": "Create ContactForm component with fields for Name, Brand Name, Budget Range, Contact Number, and Email with validation, calling backend.submitLead() on submission and displaying success/error messages"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and add ContactForm component to the main layout after Testimonials"
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Implement mobile-first responsive design across all components",
+      "acceptanceCriteria": [
+        "All sections adapt gracefully to mobile screens",
+        "Touch targets are appropriately sized",
+        "Text remains readable on small screens",
+        "Navigation works seamlessly on mobile"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Configure Tailwind with mobile-first breakpoints and ensure responsive utilities are available for all components"
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Add base responsive styles including appropriate touch target sizing (minimum 44x44px) and mobile-optimized typography scaling"
+        }
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "summary": "Add Instagram integration and WhatsApp contact button",
+      "acceptanceCriteria": [
+        "Instagram integration is visible and functional",
+        "WhatsApp button opens WhatsApp with pre-filled message or contact",
+        "Both integrations are mobile-optimized"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/SocialIntegrations.tsx",
+          "operation": "create",
+          "description": "Create SocialIntegrations component with Instagram feed or link integration and WhatsApp button that opens WhatsApp chat with pre-filled contact message, both mobile-optimized"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and add SocialIntegrations component to appropriate location in the layout (floating or in footer)"
+        }
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "summary": "Create clean footer with Mumbai location and relevant links",
+      "acceptanceCriteria": [
+        "Footer displays Mumbai as company location",
+        "Footer includes contact information",
+        "Footer design is clean and minimal",
+        "Footer is responsive on all screen sizes"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "create",
+          "description": "Create Footer component with Mumbai location information, contact details, and relevant links in clean minimal design, using frontend/public/assets/generated/mumbai-skyline.dim_1200x400.png as decorative element, fully responsive"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and add Footer component at the bottom of the main layout"
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Implement modern scroll animations throughout the website",
+      "acceptanceCriteria": [
+        "Elements animate smoothly as they enter viewport",
+        "Animations enhance user experience without being distracting",
+        "Animations are performant and don't cause lag",
+        "Animations respect user's motion preferences"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/hooks/useScrollAnimation.ts",
+          "operation": "create",
+          "description": "Create custom hook using Intersection Observer API for scroll-triggered animations that respects prefers-reduced-motion media query and provides smooth performant transitions"
+        },
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Add scroll animation hook to Hero component for element reveals"
+        },
+        {
+          "path": "frontend/src/components/ProblemSection.tsx",
+          "operation": "modify",
+          "description": "Add scroll animation hook to ProblemSection for staggered element reveals"
+        },
+        {
+          "path": "frontend/src/components/WhatWeDo.tsx",
+          "operation": "modify",
+          "description": "Add scroll animation hook to WhatWeDo for service card animations"
+        },
+        {
+          "path": "frontend/src/components/WhyMicrohub.tsx",
+          "operation": "modify",
+          "description": "Add scroll animation hook to WhyMicrohub for value proposition reveals"
+        },
+        {
+          "path": "frontend/src/components/HowItWorks.tsx",
+          "operation": "modify",
+          "description": "Add scroll animation hook to HowItWorks for sequential step reveals"
+        },
+        {
+          "path": "frontend/src/components/CreatorSection.tsx",
+          "operation": "modify",
+          "description": "Add scroll animation hook to CreatorSection for message and CTA reveal"
+        },
+        {
+          "path": "frontend/src/components/Testimonials.tsx",
+          "operation": "modify",
+          "description": "Add scroll animation hook to Testimonials for card stagger animations"
+        }
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "summary": "Implement SEO optimization targeting 'Influencer Marketing Agency in Mumbai'",
+      "acceptanceCriteria": [
+        "Page title and meta description include target keyword",
+        "Headings use semantic HTML and include relevant keywords",
+        "Images have appropriate alt text",
+        "Page follows SEO best practices for local business"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update page title to include 'Influencer Marketing Agency in Mumbai', add meta description with target keyword, add Open Graph tags, and include structured data for local business"
+        },
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Ensure headline uses semantic h1 tag with keyword-rich content"
+        },
+        {
+          "path": "frontend/src/components/ProblemSection.tsx",
+          "operation": "modify",
+          "description": "Use semantic h2 tags with relevant keywords in section heading"
+        },
+        {
+          "path": "frontend/src/components/WhatWeDo.tsx",
+          "operation": "modify",
+          "description": "Use semantic h2 and h3 tags with relevant keywords in section and service headings"
+        },
+        {
+          "path": "frontend/src/components/WhyMicrohub.tsx",
+          "operation": "modify",
+          "description": "Use semantic h2 tags with relevant keywords including Mumbai local targeting emphasis"
+        },
+        {
+          "path": "frontend/public/assets/generated/hero-bg.dim_1920x1080.png",
+          "operation": "modify",
+          "description": "Ensure alt text includes 'diverse creators for influencer marketing campaigns in Mumbai'"
+        },
+        {
+          "path": "frontend/public/assets/generated/mumbai-skyline.dim_1200x400.png",
+          "operation": "modify",
+          "description": "Ensure alt text includes 'Mumbai skyline representing local influencer marketing presence'"
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Apply premium minimal design aesthetic with specified color scheme and typography",
+      "acceptanceCriteria": [
+        "Color scheme uses black, white, and chosen bold accent color consistently",
+        "Typography is bold and impactful",
+        "Layout feels spacious and uncluttered",
+        "Overall design balances professionalism with youthful energy",
+        "Design prioritizes brand owners as primary audience"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Configure custom color palette with black, white, and electric blue or neon green as accent color, define bold typography scale with strong font weights, and set spacing scale for spacious layouts"
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Define global premium minimal design system including bold typography styles, minimal color usage with strategic accent placement, spacious layout utilities, and professional yet youthful visual tone targeting brand owners"
+        },
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Apply premium minimal styling with bold typography, strategic accent color usage, and spacious layout"
+        },
+        {
+          "path": "frontend/src/components/ProblemSection.tsx",
+          "operation": "modify",
+          "description": "Apply premium minimal styling with clean hierarchy and accent color highlights"
+        },
+        {
+          "path": "frontend/src/components/WhatWeDo.tsx",
+          "operation": "modify",
+          "description": "Apply premium minimal styling with bold service titles and subtle accent color accents"
+        },
+        {
+          "path": "frontend/src/components/WhyMicrohub.tsx",
+          "operation": "modify",
+          "description": "Apply premium minimal styling with strong value proposition emphasis using accent colors"
+        },
+        {
+          "path": "frontend/src/components/HowItWorks.tsx",
+          "operation": "modify",
+          "description": "Apply premium minimal styling with numbered steps using accent color and clean typography"
+        },
+        {
+          "path": "frontend/src/components/CreatorSection.tsx",
+          "operation": "modify",
+          "description": "Apply premium minimal styling with bold CTA using accent color"
+        },
+        {
+          "path": "frontend/src/components/Testimonials.tsx",
+          "operation": "modify",
+          "description": "Apply premium minimal styling with clean testimonial cards and subtle accent borders"
+        },
+        {
+          "path": "frontend/src/components/ContactForm.tsx",
+          "operation": "modify",
+          "description": "Apply premium minimal styling with clean form inputs and accent color focus states"
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Apply premium minimal styling with clean layout and subtle accent color usage"
+        }
+      ]
+    }
+  ]
+}

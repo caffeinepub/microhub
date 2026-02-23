@@ -1,0 +1,302 @@
+{
+  "kind": "build_request",
+  "title": "Build Microhub influencer marketing agency website",
+  "projectName": "Microhub",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a hero section with headline 'Stop Spending Lakhs on Ads. Work With Real Creators.', subtext 'Microhub helps brands grow through micro & nano influencer collaborations that actually convert.', two CTA buttons labeled 'Work With Creators' and 'Join As Creator', and modern creator-focused background visuals",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Hero Section",
+          "Headline: \"Stop Spending Lakhs on Ads. Work With Real Creators.\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section displays headline and subtext prominently",
+        "Two CTA buttons are visible and styled consistently",
+        "Background visuals are modern and creator-focused",
+        "Section is responsive on mobile devices"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create a problem section highlighting expensive ad campaigns, low engagement, fake influencer reach, and poor ROI, followed by positioning Microhub as the solution",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Problem Section",
+          "Highlight: • Expensive ad campaigns • Low engagement • Fake influencer reach • Poor ROI"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Four pain points are clearly displayed",
+        "Transition to Microhub solution is clear and compelling",
+        "Section has strong visual hierarchy"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create a 'What We Do' section explaining influencer matchmaking, barter & paid campaigns, content-driven brand exposure, and campaign strategy & reporting",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "What We Do",
+          "• Influencer matchmaking • Barter & paid campaigns • Content-driven brand exposure • Campaign strategy & reporting"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All four service offerings are displayed clearly",
+        "Section uses icons or visual elements to support text",
+        "Content is scannable and easy to understand"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create a 'Why Microhub' section emphasizing focus on micro & nano creators, real engagement over fake followers, Mumbai-focused local targeting, and affordability for small & mid brands",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Why Microhub",
+          "• Only micro & nano creators • Real engagement > fake followers • Mumbai-focused local targeting • Affordable for small & mid brands"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Four unique value propositions are clearly displayed",
+        "Section differentiates Microhub from competitors",
+        "Design emphasizes trust and credibility"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a 'How It Works' section with a 4-step process: Step 1 - Brand shares goals, Step 2 - We shortlist creators, Step 3 - Campaign execution, Step 4 - Track performance",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "How It Works",
+          "Step 1: Brand shares goals Step 2: We shortlist creators Step 3: Campaign execution Step 4: Track performance"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Four steps are displayed in a clear sequential flow",
+        "Each step has a visual indicator (number or icon)",
+        "Process is easy to follow and understand"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Create a creator recruitment section with the message 'Don't chase brands. Let brands discover you.' and a 'Join Microhub' CTA button",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Creator Section",
+          "Message: \"Don't chase brands. Let brands discover you.\"",
+          "CTA: Join Microhub"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section addresses creators as secondary audience",
+        "Message is compelling and action-oriented",
+        "CTA button is prominent and styled consistently"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Create a testimonials section with placeholders for brand and creator reviews",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Testimonials Section",
+          "Placeholder for brand & creator reviews"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section includes placeholder testimonial cards",
+        "Layout supports multiple testimonials",
+        "Design includes space for reviewer name and company/role"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Create a contact section with a lead form including fields for Name, Brand Name, Budget Range, Contact Number, and Email",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Contact Section",
+          "Simple lead form: • Name • Brand Name • Budget Range • Contact Number • Email"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Form includes all five required fields",
+        "Form has clear labels and validation",
+        "Form submission stores lead data",
+        "Success/error messages are displayed appropriately"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Implement mobile-first responsive design across all sections ensuring optimal viewing and interaction on smartphones and tablets",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Mobile-first responsive design"
+        ]
+      },
+      "acceptanceCriteria": [
+        "All sections adapt gracefully to mobile screens",
+        "Touch targets are appropriately sized",
+        "Text remains readable on small screens",
+        "Navigation works seamlessly on mobile"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Add Instagram integration component and a WhatsApp contact button that opens WhatsApp chat",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Instagram integration",
+          "WhatsApp contact button"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Instagram integration is visible and functional",
+        "WhatsApp button opens WhatsApp with pre-filled message or contact",
+        "Both integrations are mobile-optimized"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Create a clean footer with Mumbai location information and relevant links",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Clean footer with Mumbai location"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer displays Mumbai as company location",
+        "Footer includes contact information",
+        "Footer design is clean and minimal",
+        "Footer is responsive on all screen sizes"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Implement modern scroll animations throughout the website for smooth section transitions and element reveals",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Modern animation on scroll"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Elements animate smoothly as they enter viewport",
+        "Animations enhance user experience without being distracting",
+        "Animations are performant and don't cause lag",
+        "Animations respect user's motion preferences"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Implement SEO optimization with appropriate meta tags, structured data, and content optimization targeting the keyword 'Influencer Marketing Agency in Mumbai'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "SEO optimized for \"Influencer Marketing Agency in Mumbai\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Page title and meta description include target keyword",
+        "Headings use semantic HTML and include relevant keywords",
+        "Images have appropriate alt text",
+        "Page follows SEO best practices for local business"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Apply a premium minimal design aesthetic with black, white, and electric blue or neon green accent colors, featuring clean layouts, strong typography, and a style that feels youthful yet professional",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Premium but minimal",
+          "Youthful yet professional",
+          "Clean layout with strong typography",
+          "Black, white and subtle bold accent color (like electric blue or neon green)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color scheme uses black, white, and chosen bold accent color consistently",
+        "Typography is bold and impactful",
+        "Layout feels spacious and uncluttered",
+        "Overall design balances professionalism with youthful energy",
+        "Design prioritizes brand owners as primary audience"
+      ]
+    }
+  ],
+  "constraints": [
+    "Design must be mobile-first and fully responsive",
+    "Primary target audience is brand owners, not creators",
+    "Color palette must be limited to black, white, and one bold accent color (electric blue or neon green)",
+    "Must maintain premium minimal aesthetic throughout"
+  ],
+  "nonGoals": [
+    "Building a creator portal or dashboard",
+    "Implementing actual influencer matching algorithms",
+    "Creating payment processing systems",
+    "Building campaign management tools",
+    "Developing admin panel for managing testimonials"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Modern creator-focused hero background with young diverse creators using smartphones and cameras, premium minimal style (hero-bg.dim_1920x1080.png)",
+      "Abstract geometric pattern in accent color for section backgrounds, minimal style (pattern-accent.dim_800x800.png)",
+      "Mumbai cityscape silhouette illustration in minimal line art style (mumbai-skyline.dim_1200x400.png)"
+    ],
+    "edits": []
+  }
+}

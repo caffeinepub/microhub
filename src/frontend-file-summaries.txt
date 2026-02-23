@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component that orchestrates all sections of the Microhub website in a single-page layout, from hero to footer with social integrations.",
+  "frontend/src/components/Hero.tsx": "Hero section component featuring the main headline, subtext, dual CTAs, and background image with scroll animations and smooth navigation to contact/creator sections.",
+  "frontend/src/components/ProblemSection.tsx": "Problem section highlighting four key pain points brands face with traditional marketing, followed by positioning Microhub as the solution with animated card reveals.",
+  "frontend/src/components/WhatWeDo.tsx": "Service offerings section displaying four core services (matchmaking, campaigns, exposure, reporting) in a grid layout with icons and hover effects.",
+  "frontend/src/components/WhyMicrohub.tsx": "Value proposition section emphasizing four unique differentiators with pattern background and animated card reveals on scroll.",
+  "frontend/src/components/HowItWorks.tsx": "Four-step process section showing the journey from brand goals to performance tracking with numbered badges and sequential animations.",
+  "frontend/src/components/CreatorSection.tsx": "Creator recruitment section targeting secondary audience with compelling message and prominent CTA to join the platform.",
+  "frontend/src/components/Testimonials.tsx": "Testimonials section displaying four placeholder reviews from brands and creators in a responsive grid with quote styling.",
+  "frontend/src/components/ContactForm.tsx": "Lead capture form with five required fields, budget range selector, form validation, backend integration, and success state display.",
+  "frontend/src/components/Footer.tsx": "Clean footer with Mumbai location, contact information, social links, quick navigation, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/SocialIntegrations.tsx": "Floating WhatsApp contact button component positioned in bottom-right corner with pre-filled message for easy brand inquiries.",
+  "frontend/src/hooks/useScrollAnimation.ts": "Custom React hook using Intersection Observer API for scroll-triggered animations that respects prefers-reduced-motion preferences.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration, specifically handling lead form submission with mutation and cache invalidation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring electric blue accent, black/white base colors, premium typography, and mobile-optimized touch targets.",
+  "frontend/tailwind.config.js": "Tailwind configuration with extended color palette for electric blue accent, custom shadows, and animation utilities for premium minimal design.",
+  "frontend/index.html": "HTML entry point with comprehensive SEO optimization including meta tags, Open Graph data, Twitter cards, and local business structured data for Mumbai targeting, using double quotes for all attributes to avoid parsing errors."
+}
